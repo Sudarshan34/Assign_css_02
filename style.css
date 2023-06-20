@@ -1,0 +1,73 @@
+h1{
+    text-align: center;
+}
+
+.container
+{
+    
+    padding: 10px 0;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.color{
+    display: flex;
+    width: 25%;
+    height: 40px;
+    margin: 10px auto;
+}
+
+.color div{
+    padding: 1%;
+    color: transparent;
+    box-shadow: 0 0 50px 0 rgba(0, 0, 0, 0.75);
+}
+
+  .r1{
+    width: 30%;
+    background-image: linear-gradient(rgba(255, 0, 0,1),rgba(255, 0, 0,0.5),rgba(255, 0, 0,1));
+}
+  
+
+
+.r2{
+    width: 65%;
+    background-image: linear-gradient(rgba(255, 0, 0,0.6),rgba(255, 0, 0,0.2),rgba(255, 0, 0,0.6));
+    border-left: 10px double rgba(0, 0, 0, 0.75);
+
+}
+.r3{
+    width: 15;
+    background-image: linear-gradient(rgba(255, 0, 0,1),rgba(255, 0, 0,0.5),rgba(255, 0, 0,1));
+}
+.g1{
+    width: 30%;
+    background-image: linear-gradient(rgb(60, 206, 2,1),rgb(72, 255, 0,0.5),rgb(72, 255, 0,1));
+}
+.g2{
+    
+    background-image: linear-gradient(rgb(60, 206, 2,0.6),rgb(72, 255, 0,0.2),rgb(72, 255, 0,0.6)); 
+    border-left: 10px double rgba(0, 0, 0, 0.75);
+    width: 65%;
+}
+.g3{
+    
+    background-image: linear-gradient(rgb(60, 206, 2,1),rgb(72, 255, 0,0.5),rgb(72, 255, 0,1));
+    width: 15;
+}
+.b1{
+    width: 30%;
+    background: linear-gradient(hsl(186, 76%, 16%), hsl(223, 90%, 60%), hsl(240, 56%, 42%));
+}
+.b2{
+    
+    background-image: linear-gradient(rgba(31, 4, 150,0.6),rgba(31, 4, 150,0.2),rgba(31, 4, 150,0.6));
+    border-left: 10px double rgba(0, 0, 0, 0.75);
+    width: 65%;
+}
+.b3{
+    background: linear-gradient(hsl(186, 76%, 16%), hsl(223, 90%, 60%), hsl(240, 56%, 42%));
+    width: 15;
+}
